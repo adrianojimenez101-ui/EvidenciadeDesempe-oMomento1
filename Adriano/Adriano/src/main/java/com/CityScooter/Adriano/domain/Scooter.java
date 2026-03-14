@@ -9,6 +9,10 @@ public class Scooter extends Vehicle{
     private LocalDate lastMaintenanceDate;
     private PickupPoint pickupPoint;
 
+    public Scooter() {
+        super();
+    }
+
     public Scooter(int idVehicle, String brand, String model, String color, int paxCapacity,
                    String reference, String plate, boolean availableForRent,
                    float engineCapacity, double pricePerHour, LocalDate lastMaintenanceDate,
@@ -18,10 +22,6 @@ public class Scooter extends Vehicle{
         this.pricePerHour = pricePerHour;
         this.lastMaintenanceDate = lastMaintenanceDate;
         this.pickupPoint = pickupPoint;
-    }
-
-    public Scooter() {
-        super();
     }
 
     public float getEngineCapacity() {

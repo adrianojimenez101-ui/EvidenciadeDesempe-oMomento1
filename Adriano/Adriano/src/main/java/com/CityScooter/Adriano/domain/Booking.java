@@ -15,6 +15,8 @@ public class Booking {
     private Vehicle vehicle;
     private PaymentMethod paymentMethod;
 
+    public Booking() {}
+
     public Booking(int idBooking, LocalDateTime startTime, LocalDateTime endTime,
                    String status, double totalCost, double distance, int duration,
                    User user, Vehicle vehicle, PaymentMethod paymentMethod) {

@@ -10,6 +10,8 @@ public class Payment {
     private String status;
     private Booking booking;
 
+    public Payment() {}
+
     public Payment(int idPayment, double amount, LocalDate paymentDate, String status, Booking booking) {
         this.idPayment = idPayment;
         this.amount = amount;

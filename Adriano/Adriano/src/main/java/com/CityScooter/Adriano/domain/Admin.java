@@ -5,6 +5,8 @@ public class Admin extends User {
     private int adminLevel;
     private String department;
 
+    public Admin() {super();}
+
     public Admin(int idUser, String name, String lastName, String email,
                  String password, String phone, String address, String identityDocument,
                  String role, boolean status,

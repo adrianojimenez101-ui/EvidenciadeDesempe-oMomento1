@@ -10,15 +10,14 @@ public class PickupPoint {
     private boolean isActive;
     ArrayList<Scooter> scooters;
 
+    public PickupPoint() {}
+
     public PickupPoint(int idPickupPoint, String pointName, String location, boolean isActive, ArrayList<Scooter> scooters) {
         this.idPickupPoint = idPickupPoint;
         this.pointName = pointName;
         this.location = location;
         this.isActive = isActive;
         this.scooters = scooters;
-    }
-
-    public PickupPoint() {
     }
 
     public int getIdPickupPoint() {

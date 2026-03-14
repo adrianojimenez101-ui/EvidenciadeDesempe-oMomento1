@@ -13,6 +13,8 @@ public class User {
     private String role;
     private boolean status;
 
+    public User() {}
+
     public User(int idUser, String name, String lastName, String email,
                 String password, String phone, String address, String identityDocument,
                 String role, boolean status) {

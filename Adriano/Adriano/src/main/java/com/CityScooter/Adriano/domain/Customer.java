@@ -10,6 +10,8 @@ public class Customer extends User {
     private double rating;
     private int totalTrips;
 
+    public Customer() {super();}
+
     public Customer(int idUser, String name, String lastName, String email,
                     String password, String phone, String address, String identityDocument,
                     String role, boolean status,

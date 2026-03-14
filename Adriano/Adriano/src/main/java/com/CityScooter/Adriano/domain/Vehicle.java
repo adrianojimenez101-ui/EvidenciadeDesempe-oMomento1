@@ -11,6 +11,8 @@ public class Vehicle {
     private String plate;
     private boolean availableForRent;
 
+    public Vehicle(){}
+
     public Vehicle(int idVehicle, String brand, String model, String color,
                    int paxCapacity, String reference, String plate,
                    boolean availableForRent) {
@@ -22,10 +24,6 @@ public class Vehicle {
         this.reference = reference;
         this.plate = plate;
         this.availableForRent = availableForRent;
-    }
-
-    public Vehicle(){
-
     }
 
     public int getIdVehicle() {

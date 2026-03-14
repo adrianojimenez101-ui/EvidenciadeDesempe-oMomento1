@@ -14,6 +14,8 @@ public class PaymentMethod {
     private boolean isDefault;
     private boolean status;
 
+    public PaymentMethod() {}
+
     public PaymentMethod(int idPaymentMethod, String type, String cardNumber,
                          LocalDate expirationDate, String cvv, String cardHolderName,
                          String billingAddress, boolean isDefault, boolean status) {
